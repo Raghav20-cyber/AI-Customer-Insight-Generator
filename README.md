@@ -89,6 +89,18 @@ A visual dashboard summarizing ticket volume, resolution time, ratings, and tren
 - **Insight (dataset level):** Billing complaints account for 34% of tickets this week, with response delay being the most common sub-issue.
 
 ---
+## Business Impact
+
+This project goes beyond basic classification and summarization by helping translate customer complaints into actionable insights.
+
+- Enables faster identification of recurring issues across large volumes of tickets  
+- Helps prioritize high-impact problems that affect customer experience  
+- Reduces manual effort required to analyze unstructured complaint data  
+- Supports data-driven decision making for improving products and services  
+
+In a real-world setting, such a system can assist support and operations teams in quickly understanding customer pain points and taking corrective actions.
+
+--- 
 
 ## Tech Stack
 
