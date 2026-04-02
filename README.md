@@ -1,11 +1,8 @@
 # AI-Powered Customer Complaint Intelligence System
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
-![Streamlit](https://img.shields.io/badge/UI-Streamlit-red?style=flat-square&logo=streamlit)
-![Ollama](https://img.shields.io/badge/LLM-Llama3%20via%20Ollama-black?style=flat-square)
-![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-orange?style=flat-square&logo=scikit-learn)
+![App Overview](screenshots/app_overview.png)
 
-An end-to-end system that uses Machine Learning and Generative AI to automatically classify, summarize, and extract insights from customer support complaints — reducing manual effort and helping teams act faster on support data.
+An end-to-end system that uses Machine Learning and Generative AI to automatically classify, summarize, and extract insights from customer support complaints, reducing manual effort and helping teams act faster on support data.
 
 ---
 
@@ -32,27 +29,31 @@ This system combines traditional NLP with a local LLM to handle the full pipelin
 
 ---
 
+
 ## Approach
 
 ### 1. Text Preprocessing (NLTK)
-Raw complaint text is cleaned before any model sees it:
-- Lowercasing and punctuation removal
-- Stopword removal
-- Lemmatization to normalize word forms
+Raw complaint text is cleaned before any model sees it — lowercasing, stopword removal, and lemmatization.
 
-### 2. Classification (TF-IDF + Logistic Regression)
-- Complaint text is vectorized using **TF-IDF**
-- A **Logistic Regression** classifier predicts the complaint category
-- Rule-based overrides handle edge cases and improve accuracy on common patterns
+### 2. Classification + Summarization (TF-IDF + Llama3)
+Each complaint is classified into a category and summarized in one line by Llama3.
 
-### 3. AI Summarization & Insights (Llama3 via Ollama)
-- Each complaint is passed to Llama3 for a concise one-line summary
-- For dataset-level analysis, the model generates structured insights across all tickets
+![Complaint Analysis](screenshots/Complaint_analysis.png)
 
-### 4. UI (Streamlit)
-A lightweight web app lets users:
-- Input a single complaint and see classification + summary instantly
-- Upload a dataset and view visualizations and AI-generated insights
+### 3. AI Insights
+The model identifies the top recurring issues across the entire dataset.
+
+![AI Insights](screenshots/Ai_insights.png)
+
+### 4. AI Recommendations
+Based on the patterns found, Llama3 generates actionable business recommendations.
+
+![AI Recommendations](screenshots/Ai_recommendations.png)
+
+### 5. Analytics Dashboard
+A visual dashboard summarizing ticket volume, resolution time, ratings, and trends.
+
+![Analytics Dashboard](screenshots/Customer_Support_Analysis.png)
 
 ---
 
