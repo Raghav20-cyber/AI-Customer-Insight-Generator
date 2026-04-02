@@ -19,7 +19,7 @@ Key pain points:
 
 ## Solution
 
-This system combines traditional NLP with a local LLM to handle the full pipeline — from raw complaint text to actionable insight — with a simple web UI anyone on the team can use.
+This system combines traditional NLP with a local LLM to handle the full pipeline , from raw complaint text to actionable insight , with a simple web UI anyone on the team can use.
 
 **What it does:**
 - Classifies each complaint into a category (billing, technical, refund, etc.)
@@ -33,7 +33,7 @@ This system combines traditional NLP with a local LLM to handle the full pipelin
 ## Approach
 
 ### 1. Text Preprocessing (NLTK)
-Raw complaint text is cleaned before any model sees it — lowercasing, stopword removal, and lemmatization.
+Raw complaint text is cleaned before any model sees it , lowercasing, stopword removal, and lemmatization.
 
 ### 2. Classification + Summarization (TF-IDF + Llama3)
 Each complaint is classified into a category and summarized in one line by Llama3.
@@ -140,6 +140,6 @@ streamlit run app.py
 
 ## Limitations & Future Work
 
-- Currently runs Llama3 locally — cloud LLM support (OpenAI, Gemini) can be added
+- Currently runs Llama3 locally , cloud LLM support (OpenAI, Gemini) can be added
 - Classification accuracy depends on training data quality and size
 - Planned: confidence scores per classification, multi-label support, export to CSV
