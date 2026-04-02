@@ -1,6 +1,6 @@
 # AI-Powered Customer Complaint Intelligence System
 
-![app_overview](screenshots/app_overview.png)
+<img width="1524" height="892" alt="app_overview" src="https://github.com/user-attachments/assets/5c8f4f6e-31c5-498a-861b-9df6fcf50e6e" />
 
 An end-to-end system that uses Machine Learning and Generative AI to automatically classify, summarize, and extract insights from customer support complaints, reducing manual effort and helping teams act faster on support data.
 
