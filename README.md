@@ -38,22 +38,24 @@ Raw complaint text is cleaned before any model sees it — lowercasing, stopword
 ### 2. Classification + Summarization (TF-IDF + Llama3)
 Each complaint is classified into a category and summarized in one line by Llama3.
 
-![Complaint Analysis](screenshots/Complaint_analysis.png)
+
+<img width="1513" height="843" alt="Complaint_analysis" src="https://github.com/user-attachments/assets/d9fde56c-7a13-43dd-a0f3-e193e16fc83e" />
 
 ### 3. AI Insights
 The model identifies the top recurring issues across the entire dataset.
 
-![AI Insights](screenshots/Ai_insights.png)
+<img width="1295" height="462" alt="Ai_insights" src="https://github.com/user-attachments/assets/5f02f20b-4344-4f4a-bb85-4ed7d292f20a" />
 
 ### 4. AI Recommendations
 Based on the patterns found, Llama3 generates actionable business recommendations.
 
-![AI Recommendations](screenshots/Ai_recommendations.png)
+<img width="1574" height="573" alt="Ai_recommendations" src="https://github.com/user-attachments/assets/7a28d8c8-0467-4898-ad25-cf277281cc27" />
+
 
 ### 5. Analytics Dashboard
 A visual dashboard summarizing ticket volume, resolution time, ratings, and trends.
 
-![Analytics Dashboard](screenshots/Customer_Support_Analysis.png)
+<img width="1318" height="746" alt="Customer Support Analysis" src="https://github.com/user-attachments/assets/245b1e14-390e-4224-bb69-28270c64e769" />
 
 ---
 
