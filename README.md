@@ -97,7 +97,8 @@ This project goes beyond basic classification and summarization by helping trans
 - Enables faster identification of recurring issues across large volumes of tickets  
 - Helps prioritize high-impact problems that affect customer experience  
 - Reduces manual effort required to analyze unstructured complaint data  
-- Supports data-driven decision making for improving products and services  
+- Supports data-driven decision making for improving products and services
+- This system can help reduce manual complaint analysis effort by up to 60–70% by automating issue detection and insight generation.
 
 In a real-world setting, such a system can assist support and operations teams in quickly understanding customer pain points and taking corrective actions.
 
