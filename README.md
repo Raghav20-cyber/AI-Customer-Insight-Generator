@@ -52,16 +52,13 @@ Each complaint is classified into a category and summarized in one line by Llama
 
 <img width="1513" height="843" alt="Complaint_analysis" src="https://github.com/user-attachments/assets/d9fde56c-7a13-43dd-a0f3-e193e16fc83e" />
 
-### 3. AI Insights
-The model identifies the top recurring issues across the entire dataset.
 
-<img width="1295" height="462" alt="Ai_insights" src="https://github.com/user-attachments/assets/5f02f20b-4344-4f4a-bb85-4ed7d292f20a" />
+### 3. AI Insights and Recommendations
+The model identifies the top recurring issues across the entire dataset. Based on the patterns found, Llama3 generates actionable business recommendations.
 
-### 4. AI Recommendations
-Based on the patterns found, Llama3 generates actionable business recommendations.
+<img width="883" height="811" alt="Insights and Recommendations" src="https://github.com/user-attachments/assets/1fa0c4c3-10bf-453c-8494-ad9e7dc22c6a" />
 
-<img width="1574" height="573" alt="Ai_recommendations" src="https://github.com/user-attachments/assets/7a28d8c8-0467-4898-ad25-cf277281cc27" />
-
+<img width="877" height="834" alt="Insights and Recommendations (2)" src="https://github.com/user-attachments/assets/145f5c99-255d-4ad9-a2f5-d9d7b0d0a125" />
 
 ### 5. Analytics Dashboard
 A visual dashboard summarizing ticket volume, resolution time, ratings, and trends.
